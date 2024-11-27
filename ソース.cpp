@@ -52,7 +52,7 @@ int main() {
 	for (int i = 0; i < 100; i++) {
 		ML.kifufiles.push_back(kifu + to_string(i+1) + ".txt");
 	}
-
+	//
 	ML.init();
 	ML.learn();
 	*/
